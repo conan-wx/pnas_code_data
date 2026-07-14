@@ -1,0 +1,8 @@
+S_env,Curve,Feature_type,i,DeltaG,Energy_unit,Marker,Detection_basis
+1.29,Dual-concave,minimum,154.937440256153,-60.6881393149668,kBT,filled black circle,dDeltaG/dlog10(i)=0
+1.29,Dual-convex,maximum,11875.2197134457,545.223235540497,kBT,filled black circle,dDeltaG/dlog10(i)=0
+1.29,Single,maximum,13052.6213956877,1576.82947961071,kBT,filled black circle,dDeltaG/dlog10(i)=0
+1.39,Dual-convex,maximum,3727.52805438114,12.729838896036,kBT,filled black circle,dDeltaG/dlog10(i)=0
+1.39,Dual-transition,minimum,279.205442793631,-75.9803751384613,kBT,filled black circle,transition-edge extremum near T
+1.39,Single,maximum,6574.44618081307,882.847761372193,kBT,filled black circle,dDeltaG/dlog10(i)=0
+1.59,Single,maximum,2543.81342301456,320.919359516485,kBT,filled black circle,dDeltaG/dlog10(i)=0
