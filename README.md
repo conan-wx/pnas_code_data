@@ -1,8 +1,9 @@
 # Code and source data for pore-regulated heterogeneous nucleation
 
 This repository contains the code, source data, representative simulation
-snapshots, ESEM source images, and movie metadata assembled for the associated
-PNAS manuscript on pore-regulated heterogeneous nucleation.
+snapshots, ESEM source images, final supplementary movies, and movie metadata
+assembled for the associated PNAS manuscript on pore-regulated heterogeneous
+nucleation.
 
 The repository is organized to support the main theoretical model figures and
 to document the additional MDS and ESEM evidence described in the main text and
@@ -34,9 +35,11 @@ SI Appendix.
   including the SI Fig. S1 three-system overview, 2-2 nm and 2-4 nm time
   snapshots, 2-10 nm model/summary images, Origin workbooks, and small source
   archives for the 2-2 nm and 2-4 nm visualizations.
-- `data/ESEM_movie_metadata/`: ESEM/SI source images, available MP4 files,
-  movie legends, extracted first-frame previews, sampled movie-frame previews,
-  and a movie metadata table.
+- `data/Supplementary_Movies/`: final MP4 files for SI Movies S1-S3, together
+  with legends, source-file provenance, and SHA-256 checksums.
+- `data/ESEM_movie_metadata/`: ESEM/SI source images, earlier candidate MP4
+  files, movie legends, extracted first-frame previews, sampled movie-frame
+  previews, and a movie metadata table retained for curation provenance.
 - `figures/`: generated and manuscript-reference figures, including
   `generated_Fig3B.png`, `generated_Fig3C.png`, `generated_Fig3D.png`, and
   `generated_Fig4A.png`, plus `CNT_FE_keypoints_free_energy_600dpi.png` for
@@ -90,13 +93,13 @@ the Desktop were the SI overview/model images, potential-energy map, summary
 plot, and Origin/Excel summary files; a matching full trajectory or complete
 time-snapshot directory was not found during this curation pass.
 
-The ESEM movie folder contains all MP4 files found on the Desktop plus
-metadata and preview frames. One file appears to be an ESEM-like grayscale
-movie of concave/pitted particles and is a likely Movie S3 candidate. The
-other two MP4 files are desktop/OVITO recordings based on preview frames. The
-final mapping of Movies S1-S3 should be verified before PNAS submission, and
-missing final ESEM movie files should be added if they exist outside this
-Desktop search scope.
+The final submission movies are included under `data/Supplementary_Movies/`:
+Movie S1 shows nucleation on dual particles with distinct sizes, Movie S2
+shows nucleation on multi-chain particle aggregates with uniform particle
+diameters, and Movie S3 shows nucleation on concave spherical particles. The
+earlier candidate MP4 files and generated previews under
+`data/ESEM_movie_metadata/` are retained only as curation provenance and are
+not the final SI movie set.
 
 ## Source-data provenance
 
